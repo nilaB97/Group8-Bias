@@ -6,6 +6,7 @@ Everything is in the Jupyter Notebook. All Functions are commented and can be us
 
 All the dependencies used are given in requirements.txt. If a certain package does not work, please check there which version was used.
 
+The templates ....
 ## Tokenizing the Data
 
     def tokenize_data(file_path,batch_size,tokenizer):
