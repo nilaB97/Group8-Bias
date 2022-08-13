@@ -2,6 +2,7 @@
 
 Codes belonging to the project "Topic 8- Where are the biases?" of the Deep learning for Natrual Language Processing course Sommer Semester 2022 at Bielefeld University.
 
+Everything is in the Jupyter Notebook. All Functions are commented and can be used as they are described. For running the notebook file pathes and models as well as the tokenizers need to be adapted.
 
 ## Tokenizing the Data
 
