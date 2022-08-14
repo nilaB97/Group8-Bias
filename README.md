@@ -6,7 +6,11 @@ Everything is in the Jupyter Notebook. All Functions are commented and can be us
 
 All the dependencies used are given in requirements.txt. If a certain package does not work, please check there which version was used.
 
-The templates ....
+Final_templates.csv:
+Template for topic refugees with three attribute, which are either biased, unbiased or unrelated. With this kind of template we can calculate with the help of th e function evaluation(...) which uses the class LanguageModelEvaluator() (see below) to calculate which attribute would be chosen with the highest probability as well as the top 20 words, that the given model would choose itself.
+
+With the help of this result the templates final_templates_refugee.csv and final_templates_german_parties.csv were created. With these templates you can than use the function evaluate_bias(...) to calculate the probabilites and association for the given templates, targets and attributes. The resulting dataframe can then be used for the functions calc_bias(...) and calc_jsd(...) to calculate the bias and the JS Divergence.
+
 ## Tokenizing the Data
 
     def tokenize_data(file_path,batch_size,tokenizer):
