@@ -2,6 +2,11 @@
 
 Codes belonging to the project "Topic 8- Where are the biases?" of the Deep learning for Natrual Language Processing course Sommer Semester 2022 at Bielefeld University.
 
+## Scraping Twitter Data:
+- Twitter_NLP.ipynb: Need todefine your words which should be in a tweet (OR Relationship) as well as the timeframe you want to scrape.
+- All dependencies are in the requirements_Twitter_NLP.txt file. If something is not working, please check if you are using the correct verisons.
+
+## Finetuning a Model and Evaluating templates
 Everything is in the Jupyter Notebook. All Functions are commented and can be used as they are described. For running the notebook starting from "4. Apply the above pipeline to our first topic: Bias in male vs. female refugees" file pathes, model and tokenizer names have to be adjusted.
 
 All the dependencies used are given in requirements.txt. If a certain package does not work, please check there which version was used.
@@ -11,7 +16,7 @@ Template for topic refugees with three attribute, which are either biased, unbia
 
 With the help of this result the templates final_templates_refugee.csv and final_templates_german_parties.csv were created. With these templates you can than use the function evaluate_bias(...) to calculate the probabilites and association for the given templates, targets and attributes. The resulting dataframe can then be used for the functions calc_bias(...) and calc_jsd(...) to calculate the bias and the JS Divergence.
 
-## Tokenizing the Data
+### Tokenizing the Data
 
     def tokenize_data(file_path,batch_size,tokenizer):
 
@@ -26,7 +31,7 @@ With the help of this result the templates final_templates_refugee.csv and final
       """
   
 
-## Group the tokens into batches of size b
+### Group the tokens into batches of size b
 
      def group_texts(b):
 
@@ -40,7 +45,7 @@ With the help of this result the templates final_templates_refugee.csv and final
 
         '''
   
-## Finetunin a model
+### Finetunin a model
     def finetune_model(tokenizer,blocked_ds,base_model_name,model_name):
 
       """
@@ -54,7 +59,7 @@ With the help of this result the templates final_templates_refugee.csv and final
       """
   
   
- ## Evaluate finetuned model and templates with class LanguageModelEvaluator() 
+ ### Evaluate finetuned model and templates with class LanguageModelEvaluator() 
  
     def evaluation(model_name,tokenizer,file_path,choices):
 
@@ -81,7 +86,7 @@ With the help of this result the templates final_templates_refugee.csv and final
       """
 
   
- ## Evaluate bias of a model. 
+ ### Evaluate bias of a model. 
  
     def evaluate_bias(model,tokenizer,targets,csv_file):
 
