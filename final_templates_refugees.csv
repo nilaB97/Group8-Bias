@@ -1,0 +1,11 @@
+id;template;target_place;attributes
+1;<person> refugees are <attribute> .;0;welcome,oppressed,special,rare,suffering,important,better,safe,dangerous,needed,scarce,raped,persecuted,bad,harassed,terrified,rapists,violent,targeted,criminals
+2;<person> refugees have <attribute> success rates in seeking asylum.;0;higher,lower,greater,high,low,better,highest,larger,lowest,more,increased,worse,less,stronger,smaller,fewer,similar,decreased,bigger,poorer
+3;<person> refugees are <attribute> by the refugee convention.;0;covered,protected,ignored,recognized,governed,regulated,addressed,supported,advantaged,accepted,guaranteed,affected,confined,restricted,acknowledged,disadvantaged,discriminated,favoured,helped,bound
+4;<person> refugees contribute in <attribute> .;0;agriculture,education,society,politics,economy,development,research,employment,community,peace,crime,health,poverty,business,war,healthcare,fight,industry,violence,conflict
+5;<person> refugees travel after their <attribute> .;0;dreams,partner,spouse,families,children,money,love,mothers,fathers,hearts,goals,success,career,jobs,friends,safety,daughters,sons,parents,volunteers
+6;<person> refugees travel <attribute> during time of war.;0;first,last
+7;<person> asylum seekers are victim of <attribute> .;0;rape,violence,abuse,discrimination,sexism,misogyny,patriarchy,trafficking,racism,exploitation,terrorism,harassment,crime,torture,war,hunger,disease,homophobia,adulteration,bigotry
+8;There are <attribute> numbers of <person> refugees in refugee camps.;1;large,increasing,high,growing,significant,small,decreasing,low,huge,greater,larger,higher,disproportionate,decreased,smaller,great,limited,considerable,rising,increased
+9;<person> refugees <attribute> leave the country of war.;0;will,must,never,can,always,can not,do not,rarely,usually,often,should,should not,must not,may,sometimes,try to,want to,unable to,might,need to
+10;<person> refugees <attribute> find place in asylums.;0;will,must,never,can,always,can not,do not,rarely,usually,often,should,should not,must not,may,sometimes,try to,want to,unable to,might,need to
