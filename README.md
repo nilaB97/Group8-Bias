@@ -3,7 +3,7 @@
 Codes belonging to the project "Topic 8- Where are the biases?" of the Deep learning for Natrual Language Processing course Sommer Semester 2022 at Bielefeld University.
 
 ## Scraping Twitter Data:
-- Twitter_NLP.ipynb: Need todefine your words which should be in a tweet (OR Relationship) as well as the timeframe you want to scrape.
+- Twitter_NLP.ipynb: Need to define your words which should be in a tweet (OR Relationship) as well as the timeframe you want to scrape.
 - All dependencies are in the requirements_Twitter_NLP.txt file. If something is not working, please check if you are using the correct verisons.
 
 ## Finetuning a Model and Evaluating templates
