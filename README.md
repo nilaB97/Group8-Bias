@@ -7,7 +7,7 @@ Codes belonging to the project "Topic 8- Where are the biases?" of the Deep lear
 - All dependencies are in the requirements_Twitter_NLP.txt file. If something is not working, please check if you are using the correct verisons.
 
 ## Finetuning a Model and Evaluating templates
-Everything is in the Jupyter Notebook. All Functions are commented and can be used as they are described. For running the notebook starting from "4. Apply the above pipeline to our first topic: Bias in male vs. female refugees" file pathes, model and tokenizer names have to be adjusted.
+Everything is in the Pipeline_DetectingBiasInNLP_model.ipynb file. All Functions are commented and can be used as they are described. For running the notebook starting from "4. Apply the above pipeline to our first topic: Bias in male vs. female refugees" file pathes, model and tokenizer names have to be adjusted.
 
 All the dependencies used are given in requirements.txt. If a certain package does not work, please check there which version was used.
 
