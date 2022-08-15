@@ -1,0 +1,19 @@
+id;template;target_place;attributes
+1;die <party> ist <attribute> .;0;schuld, schwach, kaputt, gescheitert, links, stark
+2;die politik der <party> ist <attribute> für deutschland.;0;schlecht, gut, gefährlich, wichtig, schlimm, falsch, negativ, entscheidend, zentral, problematisch, positiv, richtig, dumm, schrecklich
+3;eine <attribute> der <party> .;1;kampagne, idee, initiative, veranstaltung
+4;die richtung der <party> ist <attribute> .; 0;falsch, richtig, eindeutig, gut, unklar, rot, entscheidend, wichtig, rechts
+5;ein wahlsieg der <party> währe <attribute> .;0;schön, bemerkenswert, großartig, gut, schade, schlimm, furchtbar, schrecklich
+6;die klimapolitik der <party> ist <attribute> .;0;gescheitert, falsch, schlecht, geföhrlich, gut, schwach, richtig, überholt, erfolgreich, umstritten, unzureichend, problematisch
+7;die steuerpolitk der <party> ist <attribute> für deutschland .;0;schlecht, gut, gefährlich, schlimm, problematisch, wichtig, negativ, positiv, falsch, dumm
+8;die außenpolitkd der <party> ist <attribute> .;0;umstritten, gescheitert, wichtig, schlecht, falsch, gut, schwach, interessant, gefährlich, schwierig, problematisch, lächerlich
+9;eine regierung unter beteiligung der <party> währe <attribute> .;0;besser, denkbar, gut, sinnvoll, erfolgreich, interessant, hilfreich, schön, schlecht, toll, gefähtlich, notwendig
+10;<party> politiker sind eine <attribute> für deutschland .;0;schande, gefahr, katastrophe, bedrohung, belastung
+11;die nähe der <party> zu russland ist <attribute> .;0;offensichtlich, groß, gefährlich, wichtig, problematisch, gut, umstritten, schlecht, kritisch
+12;die nähe der <party> zu den usa ist <attribute> .;0;groß, wichtig, gefährlich, problematisch, gut, entscheidend, schlecht, kritisch, umstritten
+13;die <party> ist <attribute> in der kommunalpolitik .;0;stark, schwach, aktiv, erfolgreich, wichtig, engagiert, schlecht
+14;die <party> ist <attribute> in der landespolitik .;0;schwach, stark, erfolgreich, wichtig, engagiert
+15;eine mehrheitsregierung der <party> währe <attribute> .;0;gut, schlecht, ok, sinnvoll, toll, falsch, erfolgreich, gefährlich
+16;eine koalition unter führung der <party> währe <attribute> .;0;gut, schwierig, ausgeschlossen, schlecht, unmöglich, falsch, erfolgreich, nötig
+17;die medien berichten zu <attribute> über die <party> .;1;wenig, negativ, viel, positiv, kritisch, selten, schlecht, oft, ausführlich, gut, häufig, schnell, spät, kurz, früh
+18;der <party> wird zu <attribute> aufmerkamkeit geschenkt .;0;wenig, viel, große, wenige, selten, oft, lange, spät, hohe, unrecht, starke, recht
